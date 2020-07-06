@@ -16,22 +16,22 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach ($clothes as $vestito)
+                    @foreach ($clothes as $clothe)
                         <tr>
                             <td>
-                                {{$vestito->id}}
+                                {{$clothe->id}}
                             </td>
                             <td>
-                                {{$vestito->item}}
+                                {{$clothe->item}}
                             </td>
                             <td>
-                                {{$vestito->price}}
+                                {{$clothe->price}}
                             </td>
                             <td>
-                                {{$vestito->brand}}
+                                {{$clothe->brand}}
                             </td>
                             <td>
-                                {{$vestito->collection_year}}
+                                {{$clothe->collection_year}}
                             </td>
                         </tr>
                     @endforeach
