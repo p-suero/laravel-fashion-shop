@@ -14,6 +14,8 @@
                             <th scope="col">Price</th>
                             <th scope="col">Brand</th>
                             <th scope="col">Collection Year</th>
+                            <th scope="col">Created_at</th>
+                            <th scope="col">Update_at</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -33,6 +35,12 @@
                                 </td>
                                 <td>
                                     {{$clothe->collection_year}}
+                                </td>
+                                <td>
+                                    {{$clothe->created_at}}
+                                </td>
+                                <td>
+                                    {{$clothe->update_at}}
                                 </td>
                             </tr>
                         @endforeach
