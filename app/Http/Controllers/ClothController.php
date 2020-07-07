@@ -3,12 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Clothes;
+use App\Cloth;
 
-class ClothesController extends Controller
+class ClothController extends Controller
 {
     public function index() {
-        $all_clothes = Clothes::all();
+        $all_clothes = Cloth::all();
         $data = [
             'clothes' => $all_clothes
         ];

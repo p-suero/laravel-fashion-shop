@@ -19,28 +19,28 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach ($clothes as $clothe)
+                        @foreach ($clothes as $cloth)
                             <tr>
                                 <td>
-                                    {{$clothe->id}}
+                                    {{$cloth->id}}
                                 </td>
                                 <td>
-                                    {{$clothe->item}}
+                                    {{$cloth->item}}
                                 </td>
                                 <td>
-                                    {{$clothe->price}}
+                                    {{$cloth->price}}
                                 </td>
                                 <td>
-                                    {{$clothe->brand}}
+                                    {{$cloth->brand}}
                                 </td>
                                 <td>
-                                    {{$clothe->collection_year}}
+                                    {{$cloth->collection_year}}
                                 </td>
                                 <td>
-                                    {{$clothe->created_at}}
+                                    {{$cloth->created_at}}
                                 </td>
                                 <td>
-                                    {{$clothe->update_at}}
+                                    {{$cloth->update_at}}
                                 </td>
                             </tr>
                         @endforeach
